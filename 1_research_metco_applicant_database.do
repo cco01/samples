@@ -1,9 +1,9 @@
 /*
 *Title: 1_research_metco_applicant_database
-*Created by: Savannah Kochinke
+*Created by: Clive Myrie Co
 *Created on: 04/20/2021
 *Last modified on: 05/11/2022
-*Last modified by: Sara Ji
+*Edited by: Sara Ji
 
 *Purpose: Imports the Research_METCO_Applicant_Database.xlsx (source of Setren IDs)
 From Folder: E:\METCO\data\raw_data\boston_metco\Research database - DO NOT USE FOR WAITLIST
