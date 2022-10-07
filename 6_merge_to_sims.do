@@ -215,7 +215,6 @@ if `prepare_sims' ==1 {
 			drop _merge
 				rename gender gender_sims
 
-		*Chris/Sarah 6/24/2010:  Put native americans in other race category
 			* RACE
 				qui g byte hisp_sims      = race==99 if race!=. 
 				qui g byte black_sims     = race==3 if race!=. 
@@ -1360,8 +1359,6 @@ use "${temp}\merge_to_sims_V2_dtaweights_small_with_setrenid.dta", clear
       Total |      4,729      100.00
 */
 		browse if flag == 1
-		* Sara after fixing - this concerning match is no longer there when I check for duplicates on full_name1_sims (fname_sims1 + mname_sims1 + lname_sims1) dob_sims1 level.
-		* Then I do manual edits to fix duplicates
 		preserve
 		keep if flag == 1
 		do "${ppi_programs}\manual_edits_fix_1tom_merge.do"
