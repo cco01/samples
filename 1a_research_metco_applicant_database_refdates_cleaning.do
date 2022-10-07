@@ -24,7 +24,7 @@ Set paths
 * Path locations
 do "E:\METCO\programs\headers\RQ2_header_and_paths.do"
 
-* Take the most recent full_metco applicant data and find people who have referred == 1 and no referral data. Take those kids and merge them with the dataset Clive is working with - so she can check the status notes.
+* Take the most recent full_metco applicant data and find people who have referred == 1 and no referral data. Take those kids and merge them with the dataset.
 use "${merge_sims}\full_metco.dta", clear
 keep if referred_all==1 & refer_date_all == .
 * Limit the data to observations only from the electronic database
