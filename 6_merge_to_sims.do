@@ -1,9 +1,9 @@
 /*
 *Title: 6_merge_to_sims
-*Created by: Savannah Kochinke
+*Created by: Clive Myrie Sinfuego Co
 *Created on: 5/5/2021
 *Last modified on: 4/7/2022
-*Last modified by: Sara Ji
+*Edited by: Sara Ji
 
 *Purpose: Merge PDFs/Google Forms/Electronic Database to SIMS
 */
