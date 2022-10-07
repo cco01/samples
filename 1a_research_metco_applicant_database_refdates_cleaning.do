@@ -3,7 +3,7 @@
 *Created by: Clive Myrie Co
 *Created on: 07/16/2021
 *Last modified on:
-*Last modified by: Sara Ji
+*Checked by: Sara Ji
 
 *Purpose: Clean up Electronic Database for Referral Date additions
 ### First goal is to clean up data just to add referral dates to those without one and have one in either of the status notes
